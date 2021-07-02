@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 
-project(KhronosDataFormat LANGUAGES C VERSION 1.3.1)
+project(KhronosDataFormat LANGUAGES NONE VERSION 1.3.1)
 
 # Introduce variables:
 # * CMAKE_INSTALL_LIBDIR
@@ -45,7 +45,7 @@ install(
 
 install(
     FILES "${KHRONOSDATAFORMAT_HDR_LIST}"
-    DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}/KhronosGroup"
+    DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}/KHR"
 )
 
 install(
